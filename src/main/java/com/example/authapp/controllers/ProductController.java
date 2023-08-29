@@ -23,13 +23,13 @@ public class ProductController {
     public ResponseEntity postProduct(@RequestBody @Valid ProductRequestDTO body){
         Product newProduct = new Product(body);
 
-        this.repository.save(newProduct);
+        repository.save(newProduct);
         return ResponseEntity.ok().build();
     }
 
     @GetMapping
     public ResponseEntity getAllProducts(){
-        List<ProductResponseDTO> productList = this.repository.findAll().stream().map(ProductResponseDTO::new).toList();
+        List<ProductResponseDTO> productList = repository.findAll().stream().map(ProductResponseDTO::new).toList();
 
         return ResponseEntity.ok(productList);
     }
