@@ -19,7 +19,7 @@
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
 ## 💻 Projeto
-API desenvolvida para fornecer Autenticação e Autorização de usuários em uma aplicação Java Spring utilizando o Spring Security. O projeto utiliza PostgresSQL como banco de dados, Spring Security e JWT para controle de autenticação. Projeto assistido e desenvolvido através de [Youtube Tutorial](https://www.youtube.com/watch?v=5w-YCcOjPD0) por [Fernanda Kipper](https://github.com/Fernanda-Kipper). 
+API desenvolvida para fornecer Autenticação e Autorização de usuários em uma aplicação Java Spring utilizando o Spring Security. O projeto utiliza PostgreSQL como banco de dados, Spring Security e JWT para controle de autenticação. Projeto assistido e desenvolvido através de [Youtube Tutorial](https://www.youtube.com/watch?v=5w-YCcOjPD0) por [Fernanda Kipper](https://github.com/Fernanda-Kipper). 
 
 
 
